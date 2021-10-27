@@ -1,0 +1,67 @@
+h2 {
+  font-size: 20px;
+  color: #C37B89;
+}
+
+h1, h2 {
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  font-family: 'Nunito sans', sans-serif;
+}
+
+div {
+  text-align: center;
+  /* background: white;                         White background */
+  padding: 30px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+  width: 600px;        /* Set the width */
+  margin: 20px auto;    
+}
+
+#background-boris {
+  background-image: url("images/profile.jpg"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.img-circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.btn-red {
+  padding: 8px 24px;
+  border-radius: 8px;
+  background-color: #C37B89;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+i {
+  font-size: 48px;
+  margin: 20px;
+}
+
+/* body {
+  background-color: yellow;
+} */
